@@ -1,0 +1,124 @@
+#third-article {
+    padding-bottom: 164px;
+}
+
+.third-article-title-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+.third-article-title {
+    font-family: 'Playfair Display';
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 50px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-top: 146px;
+    margin-bottom: 56px;
+}
+
+.view-all-button {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 60px;
+    color: #FB8F1D;
+    text-decoration: none;
+    padding-top: 100px;
+}
+
+.stories {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.container-stories {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 590px;
+}
+
+.single-story {
+    max-width: 283px;
+    width: 100%;
+}
+
+.story-text-wrapper {
+    display: flex;
+    flex-direction: column;
+    background: white;
+    bottom: 0;
+    width: 283px;
+}
+
+.story-title {
+    height: 60px;
+    font-family: Inter, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 19px;
+    line-height: 30px;
+    color: #000000;
+    margin-top: 13px;
+}
+
+.story-description {
+    height: 78px;
+    font-family: Inter, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 26px;
+    color: #7D7987;
+    margin-top: 13px;
+}
+
+.story-read-more {
+    padding-top: 23px;
+}
+
+#read-more {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    text-decoration: none;
+    line-height: 28px;
+    color: #FB8F1D;
+}
+
+/* story-images */
+
+.image-story {
+    border-radius: 8px 8px 0 0;
+    width: 283px;
+    height: 231px;
+    background-size: cover;
+}
+
+#first-image-story {
+    background-image: url('../assets/image-31.svg');
+}
+
+#second-image-story {
+    background-image: url('../assets/image-32.svg');
+}
+
+#third-image-story {
+    background-image: url('../assets/image-33.svg');
+}
+
+#fourth-image-story {
+    background-image: url('../assets/image-34.svg');
+}
+
+/* story-images-end */

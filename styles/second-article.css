@@ -1,0 +1,114 @@
+.second-article-info {
+    width: 450px;
+    padding-top: 79px;
+}
+
+.second-article {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 774px;
+}
+
+#second-article {
+    background: #F8F8F8;
+}
+
+.rating {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 189.02px;
+}
+
+.title-about-second-article {
+    font-family: 'Playfair Display', serif;
+    font-size: 36px;
+    color: #202336;
+    margin-bottom: 145px;
+}
+
+.second-article-second-text {
+    font-family: 'Mulish', sans-serif;
+    font-size: 25px;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    position: relative;
+}
+
+.author-name {
+    font-family: 'Inter', sans-serif;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.author-role {
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 48px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-bottom: 179px;
+}
+
+/* second-image */
+
+.second-article-image {
+    position: relative;
+}
+
+.camera-man-image {
+    position: relative;
+    border-radius: 12px 12px 0 0;
+    margin: 189px 0 0 0;
+    z-index: 2;
+}
+
+.second-article-image-nav {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-end;
+    width: 132px;
+    height: 60px;
+    background: white;
+    border-radius: 16px 0px 0px 0px;
+    right: 0;
+    z-index: 3;
+    bottom: 90px;
+}
+
+.second-article-image-nav img {
+    margin-left: 22px;
+}
+
+/* second-image-end */
+
+/* second-small-images */
+
+.big-cross {
+    position: absolute;
+    left: -15px;
+    bottom: 79px;
+    width: 35.72px;
+    height: 35.64px;
+    z-index: 3;
+}
+
+.big-circle {
+    position: absolute;
+    top: 170px;
+    right: -19px;
+    width: 42px;
+    height: 42px;
+    z-index: 1;
+}
+
+/* second-small-images-end */

@@ -1,0 +1,34 @@
+.first-article-info {
+    width: 450px;
+    padding-top: 150px;
+    position: relative;
+}
+
+.first-article {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 250px;
+    padding-bottom: 116px;
+}
+
+.title-about-first-article {
+    font-family: 'Playfair Display', serif;
+    font-size: 36px;
+    margin-bottom: 30px;
+    color: #202336;
+}
+
+.first-article-second-text {
+    font-family: Mulish;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.first-article-image {
+    position: relative;
+}
